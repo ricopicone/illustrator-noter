@@ -30,6 +30,16 @@ These are example courses that contain example Illustrator `.ai` files. I sugges
 
 Browse the directory `ME345_2016F`. You will see three `.ai` files that are my notes for the first three lectures in the course. Ignore the `mySaveAsArchivePDFs.jsx` shortcut ... it has to be there, pointing to `mySaveAsArchivePDFs.jsx` at the level above, but you needn't mess with it.
 
+The `.ai` note files will be described in detail in the next section. For now, we'll focus on how to convert these into pdf files for printing and distribution. The scripts will do the work. Two pdf files are produced for each Illustrator file: one in the subdirectory `archive` (it will be generated) that contains all your notes (this copy's for you to print for yourself); the other will be in the subdirectory `partial` (also will be generated) that contains most of your notes, but is missing specific regions you've chosen to **hide** from your students (so they have to follow along and fill-in).
+
+Let's try it. Double-click `processAllNotes.command` (you may need to open a Terminal, navigate to the `illustrator-noter` directory, and execute the command `chmod +x processAllNotes.command`). If everything runs ok, you may need to have Illustrator be your active window while it processes the files. After a few moments, browse to `me345_2016F`. You should see something like the following.
+
+![done](.readme/done.png)
+
+The `archive` directory should contain the full note pdfs. The `partial` directory should contain the partial note pdfs. The `temp` directory can be ignored. The two text files generated can also be ignored (they store timestamps of when files have been modified, so if these text files are deleted, all Illustrator files will be re-processed and the text files will be re-generated). Check to see that both courses have generated archive and partial pdfs. Now, immediately repeating the command should do nothing because the scripts check to see if any changes have been made since last time (it's really checking timestamps). If you modify an `.ai` file, then execute the command, only the modified file will be updated.
+
+## Actually noting
+
 Open up the lecture notes `ME345_2016F_001_BasicElectronics.ai` in Illustrator. Open up the **Layers** palette. You should see something like this.
 
 ![layers](.readme/layers.png)
@@ -41,4 +51,8 @@ My workflow is like this: first write my notes in `main`, then select the region
 Notice that there's more than one page in this set of notes. Well, Illustrator doesn't actually have the concept of "page," but "artboards" are essentially the same thing. These artboards are letter size. When you reach the bottom of a page and would like a new page, you can create one by opening the **Artboards** palette and clicking **New Artboard** at the bottom. You should see something like the following.
 
 ![artboards](.readme/artboards.png)
+
+Unfortunately, you have to manually move this to the bottom. To move an artboard, use the keyboard shortcut `Shift-O`. Drag it to the bottom such that the top corners of the new page are coincident with the bottom corners of the previous page. Note that the rules were already there (up to ten pages).
+
+Usually my `inclass` layer ends up looking just like the `hidden` layer, after a lecture (as is shown in this file). Before the next lecture, I usually delete everything from `inclass`. To select everything in the layer, click the circle to the right of the layer name. Then, press `delete` on your keyboard.
 

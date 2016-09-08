@@ -23,4 +23,4 @@ for i in $coursesIndices; do
 done
 printf -- '\t--> done.\n' ''
 
-# read dun # uncomment this to leave the terminal window open ... for debugging purposes
+read dun # uncomment this to leave the terminal window open ... for debugging purposes
