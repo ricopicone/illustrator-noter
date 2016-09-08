@@ -20,13 +20,16 @@ At the top level, you'll see the following files and folders.
     mySaveAsArchivePDFs.jsx
     processAllNotes.command
     processNotes.sh
+    lectureNotes.ait
 
-Unless something breaks, don't worry about messing with `callScripts.scpt`, `mySaveAsArchivePDFs.jsx`, and `processNotes.sh`. Read the next two sentences before executing the first sentence. Open `processAllNotes.command` in a plain text editor (TextEdit is fine). **Do not** double-click the file to open it; it will execute ... do something like alt-click and use `Open With ...`. Notice that the array `coursesArray` has the following entries.
+Unless something breaks, don't worry about messing with `callScripts.scpt`, `mySaveAsArchivePDFs.jsx`, and `processNotes.sh`. The file `lectureNotes.ait` is an Illustrator template file that can be "installed" by placing it in the directory `/Applications/Adobe Illustrator CS6/Cool Extras/en_US/Templates`. Now, in Illustrator, `File > New from Template ...` will show `lectureNotes.ait`. Note that by default, in addition to the title, there's a textbox on the `main` layer that is annoying if you aren't going to use it.
+
+Read the next two sentences before executing the first sentence. Open `processAllNotes.command` in a plain text editor (TextEdit is fine). **Do not** double-click the file to open it; it will execute ... do something like alt-click and use `Open With ...`. Notice that the array `coursesArray` has the following entries.
 
     me345_2016F
     me316_2016F
 
-These are example courses that contain example Illustrator `.ai` files. I suggest not messing with `processAllNotes.command` for now.
+These are example courses that contain example Illustrator `.ai` files. I suggest not messing with `processAllNotes.command` for now. (Later, add your own course directory names here.)
 
 Browse the directory `ME345_2016F`. You will see three `.ai` files that are my notes for the first three lectures in the course. Ignore the `mySaveAsArchivePDFs.jsx` shortcut ... it has to be there, pointing to `mySaveAsArchivePDFs.jsx` at the level above, but you needn't mess with it.
 
