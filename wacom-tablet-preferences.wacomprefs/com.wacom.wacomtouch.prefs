@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root type="map">
+  <TDManager type="map">
+    <AdvancedGesturesEnabled type="bool">true</AdvancedGesturesEnabled>
+    <GesturesEnabled type="bool">true</GesturesEnabled>
+    <GesturesF1F2TimeoutMS type="integer">400</GesturesF1F2TimeoutMS>
+    <GesturesPanScrollHysteresisMM type="integer">3</GesturesPanScrollHysteresisMM>
+    <GesturesRotateHysteresisDeg type="integer">5</GesturesRotateHysteresisDeg>
+    <GesturesZoomHysteresisMM type="integer">10</GesturesZoomHysteresisMM>
+    <PHRCEnabled type="bool">true</PHRCEnabled>
+    <PHRCLevel type="integer">2</PHRCLevel>
+    <TAFClickF1F2TimeoutMS type="integer">500</TAFClickF1F2TimeoutMS>
+    <TDList type="map">
+      <TD_0 type="map">
+        <DisplayID type="string">2077749241</DisplayID>
+        <Enabled type="bool">true</Enabled>
+        <FilterList type="map">
+          <ArbitrationFilter type="map">
+            <ArbitrationMode type="integer">-1</ArbitrationMode>
+            <ArbitrationState type="bool">true</ArbitrationState>
+          </ArbitrationFilter>
+          <IronwoodRecognizerPipeline type="map">
+            <IronwoodBehaviorMachine type="map">
+              <ArmFingerIDSwap type="bool">true</ArmFingerIDSwap>
+            </IronwoodBehaviorMachine>
+          </IronwoodRecognizerPipeline>
+          <PublisherFilter type="map">
+            <EnableTouchGestureHUD type="bool">false</EnableTouchGestureHUD>
+          </PublisherFilter>
+        </FilterList>
+        <HIDInstanceID type="string">1386:770:336592896:128:65280</HIDInstanceID>
+        <LeftHandedMode type="integer">0</LeftHandedMode>
+        <LogicalExtents type="map">
+          <x type="integer">4096</x>
+          <y type="integer">4096</y>
+        </LogicalExtents>
+        <NumExpressKeys type="integer">0</NumExpressKeys>
+        <PenEnabled type="integer">-1</PenEnabled>
+        <PhysicalExtents type="map">
+          <x type="integer">15200</x>
+          <y type="integer">9500</y>
+        </PhysicalExtents>
+        <SensorID type="integer">90833666</SensorID>
+        <TabletOrientation type="integer">1</TabletOrientation>
+        <UseWacomGestures type="bool">true</UseWacomGestures>
+      </TD_0>
+      <TD_1 type="map">
+        <DisplayID type="string">2077749241</DisplayID>
+        <Enabled type="bool">false</Enabled>
+        <FilterList type="map">
+          <ArbitrationFilter type="map">
+            <ArbitrationMode type="integer">-1</ArbitrationMode>
+            <ArbitrationState type="bool">true</ArbitrationState>
+          </ArbitrationFilter>
+          <IronwoodRecognizerPipeline type="map">
+            <IronwoodBehaviorMachine type="map">
+              <ArmFingerIDSwap type="bool">false</ArmFingerIDSwap>
+            </IronwoodBehaviorMachine>
+          </IronwoodRecognizerPipeline>
+          <PublisherFilter type="map">
+            <EnableTouchGestureHUD type="bool">false</EnableTouchGestureHUD>
+          </PublisherFilter>
+        </FilterList>
+        <HIDInstanceID type="string">1386:771:339738624:128:65280</HIDInstanceID>
+        <LeftHandedMode type="integer">0</LeftHandedMode>
+        <LogicalExtents type="map">
+          <x type="integer">4096</x>
+          <y type="integer">4096</y>
+        </LogicalExtents>
+        <NumExpressKeys type="integer">0</NumExpressKeys>
+        <PenEnabled type="integer">-1</PenEnabled>
+        <PhysicalExtents type="map">
+          <x type="integer">21600</x>
+          <y type="integer">13500</y>
+        </PhysicalExtents>
+        <SensorID type="integer">90833667</SensorID>
+        <TabletOrientation type="integer">1</TabletOrientation>
+        <UseWacomGestures type="bool">true</UseWacomGestures>
+      </TD_1>
+      <TD_2 type="map">
+        <DisplayID type="string">2077749241</DisplayID>
+        <Enabled type="bool">true</Enabled>
+        <FilterList type="map">
+          <ArbitrationFilter type="map">
+            <ArbitrationMode type="integer">0</ArbitrationMode>
+            <ArbitrationState type="bool">false</ArbitrationState>
+          </ArbitrationFilter>
+          <IronwoodRecognizerPipeline type="map">
+            <IronwoodBehaviorMachine type="map">
+              <ArmFingerIDSwap type="bool">false</ArmFingerIDSwap>
+            </IronwoodBehaviorMachine>
+          </IronwoodRecognizerPipeline>
+          <PublisherFilter type="map">
+            <EnableTouchGestureHUD type="bool">false</EnableTouchGestureHUD>
+          </PublisherFilter>
+        </FilterList>
+        <HIDInstanceID type="string">1386:40:338690048:1:65280</HIDInstanceID>
+        <LeftHandedMode type="integer">0</LeftHandedMode>
+        <LogicalExtents type="map">
+          <x type="integer">4096</x>
+          <y type="integer">4096</y>
+        </LogicalExtents>
+        <NumExpressKeys type="integer">0</NumExpressKeys>
+        <PenEnabled type="integer">-1</PenEnabled>
+        <PhysicalExtents type="map">
+          <x type="integer">32512</x>
+          <y type="integer">20320</y>
+        </PhysicalExtents>
+        <SensorID type="integer">90832936</SensorID>
+        <TabletOrientation type="integer">1</TabletOrientation>
+        <UseWacomGestures type="bool">true</UseWacomGestures>
+      </TD_2>
+    </TDList>
+  </TDManager>
+  <TouchPrefsVersion type="integer">4</TouchPrefsVersion>
+</root>
